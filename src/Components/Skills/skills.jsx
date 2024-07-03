@@ -2,6 +2,9 @@ import './skills.css'
 import webImg from './webImg.jpeg'
 import mlimg from './mlimg.jpg'
 import DSA from './DSA.jpeg'
+import Git from '../Contact/Git.png'
+import Frame from './Frame.jpg'
+import PL from './PL.jpg'
 const Skill=()=>{
   return(
     <section id='skills'>
@@ -15,8 +18,6 @@ const Skill=()=>{
               <h2>Web Development</h2>
               <p>Skilled in HTML,CSS,JavaScript</p>
               <p>Knowledgable in front-end and back-end libraries/frameworks such as ReactJS,AngularJs,SQL</p>
-              
-               
             </div>
            </div>
 
@@ -37,7 +38,7 @@ const Skill=()=>{
            </div>
 
            <div className='bar'>
-              <img src='' alt='pgLang' className='Img barImg'/>
+              <img src={PL} alt='pgLang' className='Img barImg'/>
               <div className="skilltext">
               <h2>Programming Languages</h2>
               <p>Proficient in Java and Object Oriented Programming.</p>
@@ -46,12 +47,19 @@ const Skill=()=>{
            </div>
 
            <div className='bar'>
-              <img src='' alt='pgLang' className='Img barImg'/>
+              <img src={Frame} alt='pgLang' className='Img barImg'/>
               <div className="skilltext">
               <h2>Frameworks and Libraries</h2>
-              <p>Basic grasp of Node js,ExpressJs</p>
+              <p>Basic grasp of Node js,ExpressJs and Angular Js</p>
               <p>Hands-on experience with Tailwind CSS</p>
-             
+              </div>
+              </div>
+
+              <div className='bar'>
+              <img src={Git} alt='pgLang' className='Img barImg'/>
+              <div className="skilltext">
+              <h2>Tools And technologies</h2>
+              <p>Basic Knowledge in Git,GitHub,Figma</p>
               </div>
            </div>
 

@@ -21,7 +21,7 @@ const Project=()=>{
           <span className='Git'></span>
         </div>
         <div className="box">
-          <h2>Wireless C ontrol</h2>
+          <h2>Wireless Control</h2>
           <p className='boxDesc'>Developed a wireless system aimed at providing users with convenient control over their audio devices without the need for physical connections or direct access to the devices using Python</p>
           <span className='Git'></span>
         </div> 
